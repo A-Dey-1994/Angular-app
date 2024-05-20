@@ -1,0 +1,13 @@
+.login-section{
+    text-align: center;
+}
+.form-control{
+    padding: 10px;
+}
+label{
+    width: 180px;
+}
+input{
+    width: 300px;
+    height: 25px;
+}

@@ -1,12 +1,18 @@
 <section class="header">
-    <div>
+    <div class="logo-section">
         <a routerLink="">
             <img [src]="appLogo" class="appLogo" [alt]="appName">
         </a>
     </div>
-<div>
-    <input type="search"></div>
-<div>
-    <a routerLink="login">Login</a>
-</div>
+    
+    <div class="search-section">
+        <input type="search" class="search-box">
+    </div>
+
+    <div class="menu-section">
+        <ul>
+            <li><a routerLink="/login">Login</a></li>
+            <li><a routerLink="/products">Products</a></li>
+        </ul>
+    </div>
 </section>

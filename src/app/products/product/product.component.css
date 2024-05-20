@@ -1,6 +1,6 @@
 .p-container{
     height: 220px;
-    width: 180px;
+    width: 160px;
     padding: 10px;
     border: 1px solid #dfdfdf;
     border-radius: 5px;
@@ -12,4 +12,8 @@
 .p-container img{
     width: 120px;
     margin-bottom: 10px;
+}
+.p-container a{
+    text-decoration: none;
+    color: black;
 }
